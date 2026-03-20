@@ -6,7 +6,7 @@ This project demonstrates UI and API testing using Cypress.
 
 ### Checkout Flow
 
-![Checkout Test](screenshots/checkout-success.png)
+![Checkout Test](./cypress/screenshots/checkout-success.png)
 
 ## Test Coverage
 
