@@ -4,6 +4,10 @@ This project demonstrates UI and API testing using Cypress.
 
 ## Test Results
 
+
+### Login Test
+![Login](screenshots/login.png)
+
 ### Checkout Flow
 
 ![Checkout Test](./cypress/screenshots/checkout-success.png)
