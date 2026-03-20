@@ -9,7 +9,8 @@ This project demonstrates UI and API testing using Cypress.
 ![Login Test](./cypress/screenshots/Login.png)
 
 ### Cart Test
-![Cart](./screenshots/cart.png)
+
+![Cart Test](./cypress/screenshots/cart.png)
 
 ### Checkout Flow
 
