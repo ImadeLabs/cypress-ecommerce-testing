@@ -16,13 +16,27 @@ This project demonstrates UI and API testing using Cypress.
 
 ![Checkout Test](./cypress/screenshots/checkout-success.png)
 
+# Cypress E-commerce Testing Project
+
+This project shows UI and API testing using Cypress on a real e-commerce website.
+
+## Project Overview
+
+I used SauceDemo to automate important user actions like login, adding items to cart, and completing checkout.
+
 ## Test Coverage
+
+### UI Tests
 
 - Valid login
 - Invalid login
 - Add product to cart
 - Complete checkout flow
-- Basic API validation
+
+### API Test
+
+- GET users from ReqRes API
+- Response validation
 
 ## Tools Used
 
@@ -31,8 +45,16 @@ This project demonstrates UI and API testing using Cypress.
 - SauceDemo
 - ReqRes API
 
-## How to Run
+## Project Structure
 
-1. Install dependencies
-2. Run `npx cypress open`
-3. Open the spec files in `cypress/e2e`
+```text
+cypress/
+  e2e/
+    login.cy.js
+    cart.cy.js
+    checkout.cy.js
+    invalidLogin.cy.js
+    api.cy.js
+support/
+  commands.js
+```
