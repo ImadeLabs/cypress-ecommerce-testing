@@ -1,3 +1,8 @@
+## 🔗 Live Test Demo
+
+Run locally using Cypress:
+npx cypress open
+
 # Cypress E-commerce Testing
 
 This project demonstrates UI and API testing using Cypress.
